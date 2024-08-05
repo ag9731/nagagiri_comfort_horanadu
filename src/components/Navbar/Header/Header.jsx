@@ -22,7 +22,6 @@ const Header = () => {
     showMenu(false);
   };
 
-
   const handleExploreClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to the top of the page
   };
@@ -84,7 +83,6 @@ const Header = () => {
                       >
                         Places To Visit
                       </Link>
-                      Places To Visit
                     </li>
                     <li className="cursor-pointer">
                       <Link
@@ -142,10 +140,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="cursor-pointer">
-                <Link
-                  to="nagagiri_comforts/about"
-                  onClick={handleMenuClose}
-                >
+                <Link to="nagagiri_comforts/about" onClick={handleMenuClose}>
                   About
                 </Link>
               </li>
@@ -156,7 +151,6 @@ const Header = () => {
                 >
                   Places To Visit
                 </Link>
-                Places To Visit
               </li>
               <li className="cursor-pointer">
                 <Link to="nagagiri_comforts/gallery" onClick={handleMenuClose}>
