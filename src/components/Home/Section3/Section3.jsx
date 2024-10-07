@@ -7,50 +7,49 @@ import {
   FaBowlFood,
   FaGlassWaterDroplet,
 } from "react-icons/fa6";
-import "./Section3.css";
 
 const Section3 = () => {
   const array = [
     {
       icon: FaFan,
       title: "AC Facility",
-      desc: "Lorem Ipsum",
+      desc: "Experience a cool and comfortable stay with our air-conditioned rooms, perfect for relaxing after a day of adventure. Enjoy a serene atmosphere that ensures a restful night's sleep.",
     },
     {
       icon: FaGlassWaterDroplet,
       title: "24 Hours Water Facility",
-      desc: "Lorem Ipsum",
+      desc: "Stay refreshed with our reliable 24-hour water supply, ensuring you have access to clean and safe water whenever you need it. Whether it's for drinking or bathing, we've got you covered.",
     },
     {
       icon: FaCar,
       title: "Plenty Parking Facility",
-      desc: "Lorem Ipsum",
+      desc: "Enjoy the convenience of ample parking space, making it easy for you to bring your vehicle without any hassle. Our secure parking area gives you peace of mind during your stay.",
     },
     {
       icon: FaClockRotateLeft,
       title: "24 Hours Support",
-      desc: "Lorem Ipsum",
+      desc: "Our dedicated team is available around the clock to assist you with any queries or needs, ensuring a seamless experience. Your comfort and satisfaction are our top priorities.",
     },
     {
       icon: FaWifi,
       title: "Wifi Facility",
-      desc: "Lorem Ipsum",
+      desc: "Stay connected with high-speed Wi-Fi available throughout the resort, perfect for both leisure and business needs. Share your experiences online or catch up on work without interruption.",
     },
     {
       icon: FaBowlFood,
       title: "Quality Food",
-      desc: "Lorem Ipsum",
+      desc: "Savor delicious, locally inspired cuisine prepared with the freshest ingredients, ensuring a delightful dining experience. Our menu caters to all tastes, promising satisfaction with every meal.",
     },
   ];
 
   return (
-    <div className=" bg-[#fffaf1] py-8 px-5 flex flex-col  gap-14">
+    <div className="bg-[#fffaf1] py-8 px-4 sm:px-6 lg:px-8">
       {/* top section */}
-      <section className="flex flex-col gap-4">
-        <h1 className="text-5xl font-marcellus text-center leading-tight">
+      <section className="mb-12">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-marcellus text-center leading-tight mb-4">
           Facilities & Highlights of the Hotel
         </h1>
-        <p className="text-greyColor text-center">
+        <p className="text-gray-600 text-center max-w-2xl mx-auto">
           Designed for the discerning traveler, a tailored retreat providing
           exceptional experiences.
         </p>
@@ -58,22 +57,20 @@ const Section3 = () => {
 
       {/* bottom section */}
       <section>
-        <div className="flex  flex-wrap  py-9 px-5 md:px-0 justify-center container mx-auto gap-8 main">
-          {array.map((item) => {
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {array.map((item, index) => {
             const IconComponent = item.icon;
             return (
-              <div className="w-[100%] shadow-2xl">
-                <div
-                  key={item.title}
-                  className="text-center flex flex-col h-[30vh]  flex-1 gap-4 items-center justify-center"
-                >
-                  <IconComponent size={40} className="mb-2" />
-                  <h1 className="text-lg font-bold text-primary">
+              <div
+                key={index}
+                className="bg-white shadow-lg rounded-lg overflow-hidden"
+              >
+                <div className="p-6 flex flex-col items-center text-center h-full">
+                  <IconComponent className="text-4xl mb-4 text-primary" />
+                  <h2 className="text-xl font-bold text-primary mb-2">
                     {item.title}
-                  </h1>
-                  <p className="text-sm text-gray-600 text-[0.95vmax]">
-                    {item.desc}
-                  </p>
+                  </h2>
+                  <p className="text-sm text-gray-600 flex-grow">{item.desc}</p>
                 </div>
               </div>
             );

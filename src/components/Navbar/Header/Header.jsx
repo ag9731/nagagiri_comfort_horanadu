@@ -36,7 +36,7 @@ const Header = () => {
               <section className="flex  items-center gap-2">
                 <FaMobileScreen />
                 <a href="tel:+919035090689">
-                  <h1>+919035090689</h1>
+                  <h1>+91 9035090689</h1>
                 </a>
               </section>
               <section className="flex items-center gap-2">

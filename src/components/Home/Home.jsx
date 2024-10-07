@@ -12,6 +12,7 @@ const Home = () => {
       <Section2/>
       <Section4/>
       <Section3/>
+      <Section5/>
       {/* <Section5/> */}
     </div>
   )

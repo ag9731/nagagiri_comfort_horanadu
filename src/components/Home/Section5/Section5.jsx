@@ -94,15 +94,26 @@ const Section5 = () => {
                 <div className="flex flex-col justify-center items-start gap-5 ">
                   <div className="flex flex-col gap-2">
                     <label>Name</label>
-                    <input type="text" name="user_name" />
+                    <input
+                      type="text"
+                      name="user_name"
+                      className="md:w-[500px] p-2 w-[300px]"
+                    />
                   </div>
                   <div className="flex flex-col gap-2">
                     <label>Email</label>
-                    <input type="email" className="" name="user_email" />
+                    <input
+                      type="email"
+                      className="md:w-[500px] p-2 w-[300px]"
+                      name="user_email"
+                    />
                   </div>
                   <div className="flex flex-col gap-2">
                     <label>Message</label>
-                    <textarea name="message" />
+                    <textarea
+                      name="message"
+                      className="w-[300px] md:w-[500px] p-2"
+                    />
                   </div>
                   <div>
                     <input
