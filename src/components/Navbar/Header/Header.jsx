@@ -105,7 +105,7 @@ const Header = () => {
               </section>
               {/* Right Section */}
               <section className="flex items-center hidden md:flex">
-                <Link to="nagagiri_comforts/contact">
+                <Link to="/contact">
                   <button className="bg-primary py-2 px-5 font-semibold rounded-lg text-white transition-all hover:bg-black">
                     CONTACT US
                   </button>

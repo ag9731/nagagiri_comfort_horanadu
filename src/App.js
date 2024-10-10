@@ -7,22 +7,26 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Places from "./components/Places/Places";
 import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery/Gallery";
+import WhatsupButton from "./components/WhatsupButton/WhatsupButton";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Header />
-        <Routes>
-           <Route path="/" element={<Home/>}/>
-           <Route path="/about" element={<About/>}/>
-           <Route path="/place-to-visit" element={<Places/>}/>
-           <Route path="/contact" element={<Contact/>}/>
-           <Route path="/gallery" element={<Gallery/>}/>
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <>
+      <Router>
+        <div>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/place-to-visit" element={<Places />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/gallery" element={<Gallery />} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+      <WhatsupButton />
+    </>
   );
 }
 
