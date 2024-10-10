@@ -70,7 +70,7 @@ const Header = () => {
                     </li>
                     <li className="cursor-pointer">
                       <Link
-                        to="nagagiri_comforts/about"
+                        to="/about"
                         onClick={handleExploreClick}
                       >
                         About
@@ -78,7 +78,7 @@ const Header = () => {
                     </li>
                     <li className="cursor-pointer">
                       <Link
-                        to="nagagiri_comforts/place-to-visit"
+                        to="/place-to-visit"
                         onClick={handleExploreClick}
                       >
                         Places To Visit
@@ -86,7 +86,7 @@ const Header = () => {
                     </li>
                     <li className="cursor-pointer">
                       <Link
-                        to="nagagiri_comforts/gallery"
+                        to="/gallery"
                         onClick={handleExploreClick}
                       >
                         Gallery
@@ -94,7 +94,7 @@ const Header = () => {
                     </li>
                     <li className="cursor-pointer">
                       <Link
-                        to="nagagiri_comforts/contact"
+                        to="/contact"
                         onClick={handleExploreClick}
                       >
                         Contact
@@ -140,25 +140,25 @@ const Header = () => {
                 </Link>
               </li>
               <li className="cursor-pointer">
-                <Link to="nagagiri_comforts/about" onClick={handleMenuClose}>
+                <Link to="/about" onClick={handleMenuClose}>
                   About
                 </Link>
               </li>
               <li className="cursor-pointer">
                 <Link
-                  to="nagagiri_comforts/place-to-visit"
+                  to="/place-to-visit"
                   onClick={handleMenuClose}
                 >
                   Places To Visit
                 </Link>
               </li>
               <li className="cursor-pointer">
-                <Link to="nagagiri_comforts/gallery" onClick={handleMenuClose}>
+                <Link to="/gallery" onClick={handleMenuClose}>
                   Gallery
                 </Link>
               </li>
               <li className="cursor-pointer">
-                <Link to="nagagiri_comforts/contact" onClick={handleMenuClose}>
+                <Link to="/contact" onClick={handleMenuClose}>
                   Contact
                 </Link>
               </li>

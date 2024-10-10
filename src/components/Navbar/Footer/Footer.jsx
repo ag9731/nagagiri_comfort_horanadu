@@ -64,7 +64,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="nagagiri_comforts/about"
+                    to="/about"
                     onClick={handleExploreClick}
                   >
                     About
@@ -72,7 +72,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="nagagiri_comforts/place-to-visit"
+                    to="/place-to-visit"
                     onClick={handleExploreClick}
                   >
                     Places To Visit
@@ -80,7 +80,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="nagagiri_comforts/gallery"
+                    to="/gallery"
                     onClick={handleExploreClick}
                   >
                     Gallery
@@ -88,7 +88,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="nagagiri_comforts/contact"
+                    to="/contact"
                     onClick={handleExploreClick}
                   >
                     Contact
