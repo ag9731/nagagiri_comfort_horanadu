@@ -6,14 +6,14 @@ const FloatingSocialMedia = () => {
     <div className="fixed top-1/2 -translate-y-1/2 right-4 flex flex-col space-y-3 z-50">
       {/* Call Button */}
       <a
-        href="tel:+919591181111"
+        href="tel:+919035090689"
         className="flex items-center justify-center w-12 h-12 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-600 transition"
       >
         <span className="text-xl">📞</span> {/* Call icon */}
       </a>
       {/* Facebook */}
       <a
-        href="#"
+        href="https://www.facebook.com/accomodationnagagiri/"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition z-1"
@@ -33,7 +33,7 @@ const FloatingSocialMedia = () => {
 
       {/* WhatsApp */}
       <a
-        href="https://wa.me/+919591181111"
+        href="https://wa.me/+919035090689"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center w-12 h-12 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600 transition"
