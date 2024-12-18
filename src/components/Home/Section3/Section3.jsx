@@ -47,7 +47,7 @@ const Section3 = () => {
       {/* top section */}
       <section className="mb-12">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-marcellus text-center leading-tight mb-4">
-          Facilities & Highlights of the Hotel
+          Facilities & Highlights of our Hotel
         </h1>
         <p className="text-gray-600 text-center max-w-2xl mx-auto">
           Designed for the discerning traveler, a tailored retreat providing
