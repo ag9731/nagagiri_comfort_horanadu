@@ -41,8 +41,8 @@ const Header = () => {
               </section>
               <section className="flex items-center gap-2">
                 <FaEnvelopeOpen />
-                <a href="mailto:adishjain@gmail.com">
-                  <h1>adishjain@gmail.com</h1>
+                <a href="mailto:adishjain73@gmail.com">
+                  <h1>adishjain73@gmail.com</h1>
                 </a>
               </section>
               <section className="flex gap-3 ">
@@ -69,34 +69,22 @@ const Header = () => {
                       </Link>
                     </li>
                     <li className="cursor-pointer">
-                      <Link
-                        to="/about"
-                        onClick={handleExploreClick}
-                      >
+                      <Link to="/about" onClick={handleExploreClick}>
                         About
                       </Link>
                     </li>
                     <li className="cursor-pointer">
-                      <Link
-                        to="/place-to-visit"
-                        onClick={handleExploreClick}
-                      >
+                      <Link to="/place-to-visit" onClick={handleExploreClick}>
                         Places To Visit
                       </Link>
                     </li>
                     <li className="cursor-pointer">
-                      <Link
-                        to="/gallery"
-                        onClick={handleExploreClick}
-                      >
+                      <Link to="/gallery" onClick={handleExploreClick}>
                         Gallery
                       </Link>
                     </li>
                     <li className="cursor-pointer">
-                      <Link
-                        to="/contact"
-                        onClick={handleExploreClick}
-                      >
+                      <Link to="/contact" onClick={handleExploreClick}>
                         Contact
                       </Link>
                     </li>
@@ -145,10 +133,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="cursor-pointer">
-                <Link
-                  to="/place-to-visit"
-                  onClick={handleMenuClose}
-                >
+                <Link to="/place-to-visit" onClick={handleMenuClose}>
                   Places To Visit
                 </Link>
               </li>

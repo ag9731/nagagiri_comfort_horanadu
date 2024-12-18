@@ -8,11 +8,13 @@ import Places from "./components/Places/Places";
 import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery/Gallery";
 import WhatsupButton from "./components/WhatsupButton/WhatsupButton";
+import FloatingSocialMedia from "./components/FloatingSocialMedia";
 
 function App() {
   return (
     <>
       <Router>
+        <FloatingSocialMedia/>
         <div>
           <Header />
           <Routes>
@@ -25,7 +27,7 @@ function App() {
           <Footer />
         </div>
       </Router>
-      <WhatsupButton />
+      {/* <WhatsupButton /> */}
     </>
   );
 }

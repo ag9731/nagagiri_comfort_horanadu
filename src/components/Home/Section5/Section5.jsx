@@ -66,7 +66,7 @@ const Section5 = () => {
                       +91 903 509 0689{" "}
                     </h1>
                   </div>
-                  <div className="flex items-center justify-center md:justify-start lg-justify-start xl-justify-start gap-5">
+                  {/* <div className="flex items-center justify-center md:justify-start lg-justify-start xl-justify-start gap-5">
                     <FaMobileScreenButton />
                     <h1 className="text-center md:text-start lg:text-start xl:text-start">
                       +91 944 834 8106
@@ -83,7 +83,7 @@ const Section5 = () => {
                     <h1 className="text-center md:text-start lg:text-start xl:text-start">
                       +91 944 831 8713
                     </h1>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
